@@ -471,3 +471,17 @@ iframe {
   color: #38bdf8;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+}
