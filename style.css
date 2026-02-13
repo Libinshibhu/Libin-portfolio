@@ -473,15 +473,16 @@ iframe {
 }
 @media (max-width: 768px) {
 
-  .hero {
-    padding: 60px 20px;
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
   }
 
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  .hero h2 {
-    font-size: 18px;
+  .buttons .btn {
+    width: 80%;
+    text-align: center;
   }
 }
+
